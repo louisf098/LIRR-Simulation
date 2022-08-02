@@ -270,7 +270,7 @@ public class Station {
         }
 
         System.out.println(firstLeftWithout + " first class passengers and "
-        + secondLeftWithout + " were left without a seat.");
+        + secondLeftWithout + " second class passengers were left without a seat.");
     }
     
 }

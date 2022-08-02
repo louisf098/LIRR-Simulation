@@ -57,7 +57,6 @@ public class LIRRSimulator {
         }
 
         System.out.println("Begin Simulation:\n------------------------------");
-        //for (int i = 0; i < LIRRSimulator.lastArrivalTime; i++) { //goes up to last time to add passengers
         while (running) {
             if (time == ((numTrains - 1) * 5) + 15) {
                 running = false;
